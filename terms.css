@@ -1,0 +1,212 @@
+
+
+/* --- Terms Page Layout  --- */
+.terms-page {
+  background-color: #f9f4ee;
+  overflow-x: hidden; /* Animations ke liye zaroori hai */
+}
+
+/* Header Section */
+.terms-header {
+  background: #5a4632; /* Dark Brown for Authority */
+  color: #f9f4ee;
+  padding: 140px 20px 80px;
+  text-align: center;
+  border-radius: 0 0 60px 60px;
+}
+
+.terms-header h1 {
+  font-family: "Fredoka", sans-serif;
+  font-size: 3rem;
+  margin-bottom: 15px;
+}
+
+/* Main Content Wrapper */
+.policy-wrapper,
+.terms-content {
+  max-width: 900px;
+  margin: 60px auto;
+  background: white;
+  padding: 50px;
+  border-radius: 30px;
+  box-shadow: 0 10px 30px rgba(90, 70, 50, 0.05);
+}
+
+/* Vertical Sections (Replacing Grid for cleaner look) */
+.terms-card {
+  margin-bottom: 40px;
+  border-bottom: 1px solid #f2d7d5;
+  padding-bottom: 30px;
+}
+
+.terms-card:last-child {
+  border-bottom: none;
+}
+
+.terms-card h3 {
+  font-family: "Fredoka", sans-serif;
+  color: #5a4632;
+  font-size: 1.6rem;
+  margin-bottom: 15px;
+  display: inline-block;
+}
+
+.terms-card p,
+.terms-card li {
+  font-family: "Quicksand", sans-serif;
+  line-height: 1.8;
+  color: #6d5a4a;
+}
+
+.terms-card ul {
+  list-style: none;
+  padding-left: 5px;
+}
+
+.terms-card ul li {
+  margin-bottom: 10px;
+  position: relative;
+  padding-left: 25px;
+}
+
+.terms-card ul li::before {
+  content: "🌸";
+  position: absolute;
+  left: 0;
+  font-size: 0.9rem;
+}
+
+/* Fee Box Inside Section 3 */
+.fee-box {
+  background: #fdf5f2;
+  border-left: 4px solid #f7d6cb;
+  padding: 20px;
+  border-radius: 0 15px 15px 0;
+  margin-top: 20px;
+}
+
+/* Checkbox Styling */
+.terms-footer-note {
+  margin-top: 30px;
+  text-align: center;
+  padding: 30px;
+  background: #f7d6cb;
+  border-radius: 20px;
+}
+
+.checkbox-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #5a4632;
+  gap: 15px;
+}
+
+.checkbox-container input {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
+
+/* --- Animation Engine (Must be in style.css or here) --- */
+
+/* Responsive */
+@media (max-width: 768px) {
+  .terms-content {
+    padding: 30px 20px;
+    margin: 40px 15px;
+  }
+  .terms-header h1 {
+    font-size: 2.2rem;
+  }
+}
+/* privacy page styling */
+/* Privacy Page Styles */
+.privacy-page {
+  background-color: #f9f4ee;
+}
+
+.privacy-header {
+  background: #f7d6cb; /* Light Peach */
+  color: #5a4632;
+  padding: 140px 20px 80px;
+  text-align: center;
+  border-radius: 0 0 60px 60px;
+}
+
+.privacy-header h1 {
+  font-family: "Fredoka", sans-serif;
+  font-size: 3rem;
+  margin-bottom: 15px;
+}
+
+.policy-wrapper {
+  max-width: 900px;
+  margin: 60px auto;
+  background: white;
+  padding: 50px;
+  border-radius: 30px;
+  box-shadow: 0 10px 30px rgba(90, 70, 50, 0.05);
+}
+
+.policy-section {
+  margin-bottom: 40px;
+}
+
+.policy-section h3 {
+  font-family: "Fredoka", sans-serif;
+  color: #5a4632;
+  font-size: 1.5rem;
+  margin-bottom: 15px;
+  display: flex;
+  align-items: center;
+}
+
+.policy-section p,
+.policy-section li {
+  font-family: "Quicksand", sans-serif;
+  line-height: 1.8;
+  color: #6d5a4a;
+}
+
+.highlight-box {
+  background: #fdf5f2;
+  border-left: 4px solid #f7d6cb;
+  padding: 15px 20px;
+  margin-top: 15px;
+  border-radius: 0 10px 10px 0;
+}
+
+.contact-card {
+  background: #5a4632;
+  color: white;
+  padding: 30px;
+  border-radius: 20px;
+}
+
+.contact-card h3,
+.contact-card p,
+.contact-card strong {
+  color: white;
+}
+
+.contact-info {
+  margin-top: 20px;
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+/* Mobile Adjustments */
+@media (max-width: 768px) {
+  .policy-wrapper {
+    padding: 30px 20px;
+    margin: 40px 15px;
+  }
+  .privacy-header h1 {
+    font-size: 2.2rem;
+  }
+}
