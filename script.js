@@ -6,7 +6,7 @@ const body = document.body;
 toggle.addEventListener("click", () => {
   toggle.classList.toggle("active");
   nav.classList.toggle("active");
-  body.classList.toggle("no-scroll"); // Scroll band karne ke liye jab menu open ho
+  body.classList.toggle("no-scroll"); 
 });
 
 /* Close menu when clicking a link */
@@ -41,7 +41,7 @@ const textPath = document.querySelector("#flowText");
 let offset = 0;
 
 function animate() {
-  // Speed control: adjust the negative increment for speed customization
+  // Speed control
   offset -= 0.04;
   textPath.setAttribute("startOffset", offset + "%");
 
@@ -148,7 +148,7 @@ const bookingForm = document.querySelector(".booking-form");
 const successDiv = document.getElementById("submissionSuccess");
 
 if (modal && bookButtons.length > 0) {
-  // Har button ke liye click event listener lagana
+  
   bookButtons.forEach((btn) => {
     btn.addEventListener("click", (e) => {
       e.preventDefault();
