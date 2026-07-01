@@ -3,7 +3,7 @@
 /* --- Terms Page Layout  --- */
 .terms-page {
   background-color: #f9f4ee;
-  overflow-x: hidden; /* Animations ke liye zaroori hai */
+  overflow-x: hidden; 
 }
 
 /* Header Section */
@@ -32,7 +32,7 @@
   box-shadow: 0 10px 30px rgba(90, 70, 50, 0.05);
 }
 
-/* Vertical Sections (Replacing Grid for cleaner look) */
+/* Vertical Sections  */
 .terms-card {
   margin-bottom: 40px;
   border-bottom: 1px solid #f2d7d5;
@@ -111,7 +111,7 @@
   cursor: pointer;
 }
 
-/* --- Animation Engine (Must be in style.css or here) --- */
+/* --- Animation Engine  --- */
 
 /* Responsive */
 @media (max-width: 768px) {
